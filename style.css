@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header section Css */
+.header img{
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Main Section Css */
+
+.main-wrapper{
+    background-color: #98242A;
+    clip-path: polygon(100% 0, 100% 93%, 93% 100%, 0 100%, 0 0);
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+/* Left Section Start */
+/* Heading Section */
+.heading{
+    margin-top: 250px;
+    font-family: 'Poppins', sans-serif;
+color: white;
+font-size: 67px;
+font-weight: 800;
+}
+
+/* Paragraph Section CSs */
+p{
+    color: black;
+    font-size: 16px;
+    text-align: start;
+    font-weight: 400;
+
+}
+h4{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+h3{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+    font-weight: 600; 
+    margin-top: 30px;
+}
+.please{
+    color: white;
+    font-size: 14px;
+}
+
+/* Left section Right */
+
+/* Right Section Css */
+form{
+    margin-top: 30px;
+}
+input{
+    background-color: #98242A !important;
+    color: white !important;
+    border: 2px solid white;
+    border-radius: 0;
+    margin-bottom: -15px;
+    
+}
+.form-control::placeholder{
+    color: white;
+}
+
+.form-control{
+    border-radius: 0;
+}
+/* Svg for plus icon */
+.svg1{
+    background-color: white;
+    margin-left: 135px;
+}
+.svg2{
+    background-color: white;
+    margin-left: 110px;
+}
+.svg3{
+    background-color: white;
+    margin-left: 90px;
+}
+.svg4{
+    background-color: white;
+    margin-left: 100px;
+}
+.svg5{
+    background-color: white;
+    margin-left: 112px;
+}
+textarea{
+    background-color: #98242A !important;
+    height: 90px !important;
+}
+label{
+    color: white;
+}
+.mt-3 {
+    margin-top: 3rem!important;
+}
+.icon1{
+    background-color: white;
+    margin-left: 418px;
+    margin-top: -70px;
+}
+.icon2{
+    background-color: white;
+    margin-left: 418px;
+    margin-top: -30px;
+}
+/* Custom button Css */
+button{
+    margin-top: 20px !important;
+    margin-bottom: 70px;
+    width: 70%;
+    display: flex;
+    margin-left: 20px !important;   
+}
+ button img{
+    width: 28px;
+    height: 30px;
+    margin-left: 10px !important;
+    margin-bottom: -1px;
+}
+ 
+ button p{
+    margin-left: 13px;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: -2px;
+    word-spacing: 10px;
+ }
+ .para{
+    width: 18px;
+    height: 18px;
+    margin-left: 390px !important;
+    margin-top: -60px;
+ }
+
+ .form-check{
+    margin-bottom: 10px;
+    margin-top: 10px;
+ }
+ /* Form Section Ends */
